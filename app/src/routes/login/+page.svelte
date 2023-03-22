@@ -1,4 +1,4 @@
-<div>
+<div class="w-96">
     <form action="?/login" method="POST">
         <div class="mb-8">
             <label for="email" class="label">

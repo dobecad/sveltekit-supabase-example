@@ -1,20 +1,22 @@
-<script lang="ts">
-    import type { PageData } from './$types';
-    
-    export let data: PageData;
-</script>
-
-
-<div>
+<div class="w-96">
     <form action="?/register" method="POST">
-        <label for="email" class="label">
-            <span>Email:</span>
-            <input type="text" name="email" class="input">
-        </label>
-        <label for="password" class="label">
-            <span>Password:</span>
-            <input type="password" name="password" class="input">
-        </label>
-        <button type="submit" class="btn variant-filled">Register</button>
+        <div class="mb-8">
+            <label for="email" class="label">
+                <span>Email:</span>
+                <input type="text" id="email" name="email" class="input">
+            </label>
+        </div>
+    
+        <div class="mb-8">
+            <label for="password" class="label">
+                <span>Password:</span>
+                <input type="password" id="password" name="password" class="input">
+            </label>
+        </div>
+    
+        <div class="flex justify-center gap-4 mb-8">
+            <button type="submit" class="btn variant-filled-primary w-48">Register</button>
+        </div>
     </form>
 </div>
+
