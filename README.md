@@ -1,7 +1,18 @@
 # sveltekit-supabase-example
 
-Simple Sveltekit app that incorporates the Supabase library for authentication
+Simple Sveltekit demo application that incorporates the Supabase library for authentication.
 
+## Prerequisites
+- You have a Supabase project
+- You have a Google Account 
+  - This is not a hard requirement, as you can easily switch which OAuth provider you want in this demo application
+
+## Setup
+- `cd app/ && npm i`
+- Copy the `.example.env` to `.env` and fill in the variables
+- Enable the email provider on Supabase
+- Enable and setup the  Google OAuth provider on Supabase
+- `npm run dev`
 
 ## Features
 - Email/password login
